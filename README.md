@@ -1,8 +1,25 @@
-# React + Vite
+# Decentrailzed Supply Chain Ledger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A blockchain-powered supply chain management system that allows users to add, track, and manage stock information securely.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add and store stock details (ID, Name, Quantity, Status, Supplier)
+
+Fetch and display all stock data from the backend
+
+Secure and decentralized ledger for supply chain transparency
+
+Built with React, Tailwind CSS, Hyperledger Fabric, and Node.js
+
+## Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Blockchain: Hyperledger Fabric
+
+Database: LevelDB (Hyperledger Fabric's default state database)
+
+API Client: Axios
